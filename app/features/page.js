@@ -1,3 +1,4 @@
+"use-client"
 import styles from "../home.module.css"
 import Navbar from "@/components/Navbar"
 import mainstyle from './features.module.css'
