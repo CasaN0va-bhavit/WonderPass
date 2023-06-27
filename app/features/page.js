@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Navbar state="features"/>
 
-      <div className={styles.content}>
+      <div className={mainstyle.container} style={{marginLeft: "10vw", marginTop: "5vw"}}>
           <h1 className={styles.homeHeading}>
             <span className={styles.gradient1}>UNLOCK YOUR POWER</span>
           </h1>
