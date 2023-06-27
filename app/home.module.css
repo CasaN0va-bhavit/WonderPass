@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mortend');
+
+/* @font-face {
+    font-family: 'Mortend';
+src: url('./mortend/otf/mortend-mortend-bold-700.otf') format('embedded-opentype'),
+      url('./mortend/woff/mortend-mortend-bold-700.woff') format('woff'),
+      url('./mortend/ttf/mortend-mortend-bold-700.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+} */
+
 .content {
     display: flex;
     flex-direction: column;
     margin-top: 4vw;
     margin-left: 8vw;
     margin-right: 8vw;
+    overflow: hidden;
 }
 
 .homeHeading {
@@ -17,6 +29,7 @@
     font-family: 'Oleo Script Swash Caps', cursive;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    margin-left: 3vw;
     line-height: 100%;
 }
 
@@ -28,10 +41,11 @@
 }
 
 .homePara {
-    margin-top: 3vh;
+    margin-top: 7.5vh;
     display: flex;
-    width: 39.165vw;
-    height: 6.515vw;
+    width: 50%;
+    height: auto;
+    margin-left: 2vw;
     flex-direction: column;
     flex-shrink: 0;
     color: #FFF;
@@ -41,21 +55,40 @@
     line-height: 142%;
 }
 
-.images {
-    width: 52.562vw;
-    height: 23.805vw;
+.image1 {
     position: absolute;
-    right: 5vh;
-    display: flex;
-    flex-direction: row;
     bottom: 0;
-    justify-content: flex-end;
+    right: 3vw;
+    width: 15%;
 }
 
-.image1 {
-    margin-right: 1vw;
-    margin-bottom: 1vw;
-    width: 250px;
-    height: 372px;
+.image2 {
+    position: absolute;
+    width: 15%;
+    right: 2.5vw;
     bottom: 0;
+}
+.image3 {
+    position: absolute;
+    width: 15%;
+    right: 25vw;
+    bottom: 0;
+}
+
+@keyframes animationImage1 {
+    0% {
+        bottom: -20vw;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes animationImage2 {
+    0% {
+       left: -20vw;
+    }
+    100% {
+        left: 3vw;
+    }
 }
