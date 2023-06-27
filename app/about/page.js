@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar state="about"/>
 
       <div className={mainstyle.content}>
-          <h1 className={mainstyle.homeHeading}>
+          <h1 className={styles.homeHeading} id={styles.heading} style={{fontSize: "12vh"}}>
             <span className={styles.gradient1}>REDEFINING THEME</span>
             <span className={styles.headwhite}>PARK EXPERIENCE</span>
           </h1>
