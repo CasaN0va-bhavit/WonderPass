@@ -13,15 +13,17 @@ export default function Home() {
           </h1>
       </div>
       <div className={mainstyle.plans}>
-        <div className={mainstyle.card}>
-          <h1 className={mainstyle.planHeading}>SINGLE</h1>
-          <p className={mainstyle.benefits}>Benefits: </p>
+        <div className={mainstyle.card} id={mainstyle.single}>
+          <h1 className={mainstyle.cardHeading}>Single</h1>
+          <a className={mainstyle.cardButton}><h1 className={mainstyle.btnText}>Buy Now</h1></a>
         </div>
-        <div className={mainstyle.card}>
-          <h1 className={mainstyle.planHeading}>COUPLES</h1>
+        <div className={mainstyle.card} id={mainstyle.duo}>
+          <h1 className={mainstyle.cardHeading}>Duo</h1>
+          <a className={mainstyle.cardButton}><h1 className={mainstyle.btnText}>Buy Now</h1></a>
         </div>
-        <div className={mainstyle.card}>
-          <h1 className={mainstyle.planHeading}>FAMILY</h1>
+        <div className={mainstyle.card} id={mainstyle.family}>
+          <h1 className={mainstyle.cardHeading}>Family</h1>
+          <a className={mainstyle.cardButton}><h1 className={mainstyle.btnText}>Buy Now</h1></a>
         </div>
       </div>
     </div>

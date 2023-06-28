@@ -31,14 +31,17 @@
     justify-content: flex-end;
     animation: imgComeIn 1s 1;
     transition: ease-in-out;
+    /* transition: all 0.5s; */
 }
 
 .image1 {
+
+    transition: all 0.5s;
     margin-right: 3.5vw;
     margin-top: 3vw;
     margin-bottom: 1vh;
-    width: 39.312vw;
-    height: 16.471vw;
+    width: auto;
+    height: auto;
     bottom: 1vh;
 }
 
