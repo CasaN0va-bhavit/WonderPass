@@ -75,8 +75,7 @@
     rotate: 14.51deg;
     bottom: 2vw;
     /* z-index: -10; */
-    animation: animationImage1 0.25s 1;
-    animation-delay: 0.25s;
+    animation: animationImage1 0.5s 1;
     animation-timing-function: linear;
     transition: 0.5s;
     /* rotate: -14.51deg; */
@@ -107,8 +106,7 @@
     width: 15%;
     transition: 0.5s;
     right: 27.5vw;
-    animation: animationImage3 0.25s 1;
-    animation-delay: 0.25s;
+    animation: animationImage3 0.5s 1;
     animation-timing-function: linear;
     /* rotate: 14.51deg; */
     /* z-index: -10; */
