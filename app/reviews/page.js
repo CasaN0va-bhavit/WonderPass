@@ -24,7 +24,7 @@ export default function page() {
             <p className={styles.para}>It was a wonderful experience. Definitely loved it!</p>
           </div>
           <div className={styles.review2}>
-            <h1 className={styles.heading}>Lyna Grover</h1>
+            <h1 className={styles.heading}>Jai Dugal</h1>
             <p className={styles.para}>Will definitely recommend it to others. Keep up the good work!</p>
           </div>
           <div className={styles.review3}>
