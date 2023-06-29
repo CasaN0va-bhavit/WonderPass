@@ -14,7 +14,7 @@ export default function Navbar(props) {
         <h1 className={styles.link} style={props.state == "about" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a href="/about" className="cursor-pointer no-underline">About</a></h1>
         <h1 className={styles.link} style={props.state == "features" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a href="/features" className="cursor-pointer no-underline">Features</a></h1>
         <h1 className={styles.link} style={props.state == "plans" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a href="/plans" className="cursor-pointer no-underline">Plans</a></h1>
-        <h1 className={styles.link} style={props.state == "reviews" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a className="cursor-pointer no-underline">Reviews</a></h1>
+        <h1 className={styles.link} style={props.state == "reviews" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a href="/reviews" className="cursor-pointer no-underline">Reviews</a></h1>
         <h1 className={styles.link} style={props.state == "login" ? {color: "#FFA8DC"} : {color: "#FFF"}}><a href="/login" className="cursor-pointer no-underline">Login</a></h1>
       </div>
     </div>
