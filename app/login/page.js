@@ -2,8 +2,6 @@
 import React, {useState} from 'react'
 import Navbar from '@/components/Navbar';
 import styles from './login.module.css'
-// import GoogleLogin from 'react-google-login';
-import jwtdecode from 'jwt-decode'
 
 export default function Login() {
   const handlefailure = (result) =>{
