@@ -34,7 +34,7 @@ export default function Home() {
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara}>Scanning</p></li>
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "2.5vw", listStyle: "disc"}}>Seat Selection</p></li>
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "5vw", listStyle: "disc"}}>Video Access</p></li>
-            <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "7.5vw", listStyle: "disc"}}>Dynamic Itinery System</p></li>
+            <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "7.5vw", listStyle: "disc"}}>Dynamic Itinerary System</p></li>
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "10vw", listStyle: "disc"}}>Rent Golf Cart for Free</p></li>
           </ul>
           <p className={mainstyle.paraMoney} style={{top: "9.5vw"}}>$150</p>
@@ -46,7 +46,7 @@ export default function Home() {
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara}>Scanning</p></li>
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "2.5vw", listStyle: "disc"}}>Seat Selection</p></li>
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "5vw", listStyle: "disc"}}>Video Access</p></li>
-            <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "7.5vw", listStyle: "disc"}}>Dynamic Itinery System</p></li>
+            <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "7.5vw", listStyle: "disc"}}>Dynamic Itinerary System</p></li>
           </ul>
           <p className={mainstyle.paraMoney}>$100</p>
           <a className={mainstyle.cardButton} href="./purchase/duo" ><span className={mainstyle.btnText}>Choose</span></a>
