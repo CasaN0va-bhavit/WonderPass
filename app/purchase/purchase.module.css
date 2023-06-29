@@ -173,7 +173,32 @@
 }
 
 .payBtn {
-    width: 334px;
-    height: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    right: 5vw;
+    bottom: -8vw;
     flex-shrink: 0;
+    border-radius: 45px;
+    background: radial-gradient(609.86% 146.66% at 89.97% 21.88%, #E3A3C9 0%, #9548F5 50%, #6F3FFF 100%);
+}
+
+.btn {
+    display: flex;
+    width: 299px;
+    height: 158px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Mortend';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
 }

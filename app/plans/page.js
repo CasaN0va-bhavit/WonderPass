@@ -25,7 +25,7 @@ export default function Home() {
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "5vw", listStyle: "disc"}}>Video Access</p></li>
           </ul>
           <p className={mainstyle.paraMoney}>$85</p>
-          <a className={mainstyle.cardButton} ><span className={mainstyle.btnText}>Choose</span></a>
+          <a className={mainstyle.cardButton} href="./purchase/single"  ><span className={mainstyle.btnText}>Choose</span></a>
        </div>
         <div className={mainstyle.card} id={mainstyle.family}>
           <h1 className={mainstyle.cardHeading}>Family</h1>
@@ -38,7 +38,7 @@ export default function Home() {
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "10vw", listStyle: "disc"}}>Rent Golf Cart for Free</p></li>
           </ul>
           <p className={mainstyle.paraMoney} style={{top: "9.5vw"}}>$150</p>
-          <a className={mainstyle.cardButton} ><span className={mainstyle.btnText}>Choose</span></a>
+          <a className={mainstyle.cardButton} href="./purchase/family"  ><span className={mainstyle.btnText}>Choose</span></a>
         </div>
         <div className={mainstyle.card} id={mainstyle.duo}>
           <h1 className={mainstyle.cardHeading}>Duo</h1>
@@ -49,7 +49,7 @@ export default function Home() {
             <li className={mainstyle.li}><p className={mainstyle.benefitsPara} style={{marginTop: "7.5vw", listStyle: "disc"}}>Dynamic Itinery System</p></li>
           </ul>
           <p className={mainstyle.paraMoney}>$100</p>
-          <a className={mainstyle.cardButton} ><span className={mainstyle.btnText}>Choose</span></a>
+          <a className={mainstyle.cardButton} href="./purchase/duo" ><span className={mainstyle.btnText}>Choose</span></a>
         </div>
       </div>
     </div>

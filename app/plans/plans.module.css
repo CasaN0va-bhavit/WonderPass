@@ -34,7 +34,6 @@
     margin-right: 41%;
     display: block;
     background: #fff;
-    cursor: pointer;
     height: 1.5vw;
     width: 1.5vw;
     position: absolute;
@@ -46,7 +45,6 @@
     display: block;
     background: #191825;
     border: 3px solid #fff;
-    cursor: pointer;
     height: 1.5vw;
     width: 1.5vw;
     position: absolute;
@@ -57,7 +55,6 @@
     margin-left: 41%;
     display: block;
     border: 3px solid #fff;
-    cursor: pointer;
     background: #191825;
     height: 1.5vw;
     width: 1.5vw;

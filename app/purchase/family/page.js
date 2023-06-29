@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
 import Navbar from '@/components/Navbar'
-import homeStyles from "../home.module.css"
-import styles from "./purchase.module.css"
-import Header from '../plans/Header'
+import homeStyles from "../../home.module.css"
+import styles from "../purchase.module.css"
+import Header from '@/app/plans/Header'
 
 export default function page() {
   return (
@@ -40,20 +40,20 @@ export default function page() {
                 </div>
             </div>
             <div className={styles.paymentCard}>
-                <h1 className={styles.planName}>SINGLE</h1>
+                <h1 className={styles.planName}>FAMILY</h1>
                 <div className={styles.planThings}>
                     <h1 className={styles.price}>PRICE</h1>
                     <h1 className={styles.price}>Tax</h1>
                     <h1 className={styles.price}>Addon</h1>
                 </div>
                 <div className={styles.planThings2} style={{marginLeft: "15vw"}}>
-                    <h1 className={styles.price2}>$85</h1>
+                    <h1 className={styles.price2}>$150</h1>
                     <h1 className={styles.price2}>$0</h1>
                     <h1 className={styles.price2}>$0</h1>
                 </div>
                 <img src="https://cdn.discordapp.com/attachments/1122590461937328290/1123917125367648387/image.png" className={styles.hr} />
                 <h1 className={styles.price3}>TOTAL</h1>
-                <h1 className={styles.price4}>$85</h1>
+                <h1 className={styles.price4}>$150</h1>
             </div>
             <div className={styles.payBtn}>
                 <a className={styles.btn}>Pay now</a>
