@@ -30,7 +30,7 @@ export default function Login() {
   return (
     <div>
     <Navbar className={styles.nav} />
-    <Header state="2"/>
+    <Header state="3"/>
     <h1 className={home.homeHeading} style={{textAlign:"center",marginTop:"0vh"}}>
       
       <span className={home.gradient1}>LOG IN</span> </h1>
