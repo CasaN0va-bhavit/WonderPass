@@ -47,7 +47,6 @@ export default function Login() {
         <input type='text' className={styles.username} name="user_name"/>
         <button type='submit' className={styles.loginBtn} >Get email</button>
       </form>
-
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default function Navbar(props) {
   return (
     <div className={styles.parent}>
       <div>
-        <img className={styles.logo} src="https://media.discordapp.net/attachments/1122590461937328290/1123102423003697172/New_Project.png" />
+        <img className={styles.logo} src="https://cdn.discordapp.com/attachments/1122590461937328290/1124354489168699514/image.png" />
       </div>
 
       <div className={styles.links}>
