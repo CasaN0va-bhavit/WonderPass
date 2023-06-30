@@ -5,7 +5,7 @@ import mainstyle from './features.module.css'
 import Card from "./Card.js"
 export default function Home() {
   return (
-    <div>
+    <div className={mainstyle.features}>
       <Navbar state="features"/>
 
       <div className={mainstyle.container} style={{marginLeft: "10vw", marginTop: "5vw"}}>

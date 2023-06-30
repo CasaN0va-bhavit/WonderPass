@@ -6,7 +6,7 @@ import React, {useState} from "react"
 
 export default function Home() {
     return (
-      <div>
+      <div className={styles.mainPage}>
         <link href="https://fonts.cdnfonts.com/css/mortend" rel="stylesheet" />
         <Navbar state="home" />
   

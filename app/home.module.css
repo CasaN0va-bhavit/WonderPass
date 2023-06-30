@@ -10,14 +10,18 @@
       font-style: normal;
 } */
 
+.mainPage {
+    overflow: hidden !important;
+}
+
 .content {
     display: flex;
     flex-direction: column;
     margin-top: 4vw;
     margin-left: 8vw;
     margin-right: 0vw;
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
+    overflow: hidden !important;
 }
 
 .homeHeading {
@@ -41,7 +45,7 @@
 
 .homePara {
     margin-top: 7.5vh;
-    width: 50%;
+    width: 40%;
     height: auto;
     color: #FFF;
     font-size: 1.647vw;
@@ -79,7 +83,7 @@
     animation-timing-function: linear;
     transition: 0.5s;
     /* rotate: -14.51deg; */
-    right: 2.5vw;
+    right: 3.5vw;
     width: 15%;
 }
 
@@ -96,7 +100,7 @@
 .image2 {
     position: absolute;
     width: 15%;
-    right: 15vw;
+    right: 16vw;
     transition: 0.5s;
     bottom: 4vw;
 }
@@ -105,7 +109,7 @@
     position: absolute;
     width: 15%;
     transition: 0.5s;
-    right: 27.5vw;
+    right: 28.5vw;
     animation: animationImage3 0.5s 1;
     animation-timing-function: linear;
     /* rotate: 14.51deg; */
@@ -125,12 +129,12 @@
 
 @keyframes animationImage1 {
     0% {
-        right: 13vw;
+        right: 16vw;
         rotate: 0deg;
         bottom: 4vw;
     }
     100% {
-        right: 2.5vw;
+        right: 3.5vw;
         rotate: 14.51deg;
         bottom: 2vw;
     }
@@ -138,12 +142,12 @@
 
 @keyframes animationImage3 {
     0% {
-        right: 13vw;
+        right: 16vw;
         rotate: 0deg;
         bottom: 4vw;
     }
     100% {
-        right: 27.5vw;
+        right: 28.5vw;
         rotate: -14.51deg;
         bottom: 2vw;
     }
