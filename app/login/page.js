@@ -18,7 +18,7 @@ export default function Login() {
     emailjs.sendForm('service_mdh9nrd', 'template_aivsxdl', form.current, 'lxiBQPKbK_FiMS41l')
       .then((result) => {
           console.log(result.text);
-          alert("Thanks for your purchase. You've received by the WonderPass team.")
+          alert("Thanks for your purchase. You've received an email by the WonderPass team.")
       }, (error) => {
           console.log(error.text);
       });
